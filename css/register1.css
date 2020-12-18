@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #84889c;
+}
+
+.wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.registration_form{
+    background: #545871;
+    border-radius: 5px;
+    padding: 25px;
+    width: 400px;
+}
+
+.registration_form .title{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #ebd0ce;
+	letter-spacing: 5px;
+	font-weight: 700;
+}
+
+.form_wrap{
+	margin-top: 35px;
+}
+
+.form_wrap .input_wrap{
+	margin-bottom: 15px;
+}
+
+.form_wrap .input_wrap:last-child{
+	margin-bottom: 0;
+}
+
+.form_wrap .input_wrap label{
+	display: block;
+	margin-bottom: 3px;
+	color: #9597a6;
+}
+
+.form_wrap .input_grp{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form_wrap  input[type="text"]{
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #9597a6;
+	padding: 10px;
+	outline: none;
+}
+
+.form_wrap  input[type="text"]{
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #9597a6;
+	padding: 10px;
+	outline: none;
+}
+
+.form_wrap  input[type="text"]:focus{
+	border-color: #ebd0ce;
+}
+
+.form_wrap .submit_btn{
+	width: 100%;
+	background: #ebd0ce;
+	padding: 10px;
+	border: 0;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+
+.form_wrap .submit_btn:hover{
+	background: #ffd5d2;
+}

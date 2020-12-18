@@ -1,0 +1,97 @@
+body{
+    background-color: #DA86F8;
+}
+
+.mainbox{
+    background-color: #ffffff ;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px rgb(0,0,0, 0.35);
+    margin: 50px auto;
+    padding: 50px ;
+    width: 250px;
+}
+
+.mainbox .icon_socialmedias{
+    margin: 40px;
+}
+
+.mainbox .icon_socialmedias a{
+    border: 1px solid rgba(128, 128, 128, 0.863);
+    border-radius: 50%;
+    display: inline;
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mainbox .icon_socialmedias .btn-facebook{
+    color: #4064AC;
+    font-weight: 800;
+}
+
+.mainbox .icon_socialmedias .btn-google{
+    color:#D54836;
+    font-weight: 800;
+}
+
+.mainbox .icon_socialmedias .btn-youtube{
+    color: rgb(98, 0, 128);
+    font-weight: 600;
+}
+
+.mainbox .head{
+    color:#656565 ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mainbox .desc{
+    color: gray;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.mainbox input {
+    border:none;
+    border-radius: 50px;
+    background-color: #EFEFEF;
+    display: block;
+    font-family: 'Inter',sans-serif;
+    font-weight: 200;
+    height: 40px;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.mainbox .btn{
+    background-color:#CE59F7 ;
+    border:none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 8px;
+    text-transform:uppercase;
+    width: 100%;
+
+}
+
+.mainbox .signlink{
+    color:gray ;
+    text-align: center;
+}
+
+.mainbox .signlink a{
+    color: #6F61FC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
