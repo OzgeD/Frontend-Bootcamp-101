@@ -61,6 +61,7 @@ button{
   
 .main_div{
     margin-left: 200px;
+    margin-right: 42px;
     margin-top: 161px;
 }
 
@@ -96,10 +97,12 @@ button{
 
 .main_div .main_img{
     position: absolute;
-    width: 756px;
-    height: 638px;
     left: 802px;
+    height: 638px;
     top: 161px;
+    width: 756px;
+    margin-right: 42px;
+
 }
 
 
